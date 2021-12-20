@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BabylonLib</string>
+    <string name="logo">Logo</string>
+    <string name="title">Title</string>
+    <string name="func">Functions</string>
+    <string name="acc">Account</string>
+    <string name="func_button">Перейти в библиотеку</string>
+    <string name="acc_button">Вход/регистрация</string>
+    <string name="titletext">Добро пожаловать в приложение BabylonLib! Здесь вы сможете узнать все о книгах и романах, а так же обменяться ими с другими пользователями.</string>
+    <string-array name="functions">
+        <item>Книги</item>
+        <item>Авторы</item>
+        <item>Жанры</item>
+    </string-array>
+
+
+</resources>
