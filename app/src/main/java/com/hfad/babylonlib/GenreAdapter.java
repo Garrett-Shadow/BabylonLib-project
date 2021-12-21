@@ -11,6 +11,7 @@ import android.widget.TextView;
 import java.util.List;
 
 public class GenreAdapter extends RecyclerView.Adapter<GenreAdapter.GenreViewHolder> {
+
     Context context;
     List<Genre> genres;
 
@@ -33,7 +34,6 @@ public class GenreAdapter extends RecyclerView.Adapter<GenreAdapter.GenreViewHol
 
     @Override
     public int getItemCount() {
-
         return genres.size();
     }
 
