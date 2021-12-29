@@ -2,12 +2,13 @@ package com.hfad.babylonlib;
 
 public class Author {
     int id;
-    String name, portrait;
+    String name, portrait, bio;
 
-    public Author(int id, String name, String portrait) {
+    public Author(int id, String name, String portrait, String bio) {
         this.id = id;
         this.name = name;
         this.portrait = portrait;
+        this.bio = bio;
     }
 
     public int getId() {
@@ -32,5 +33,13 @@ public class Author {
 
     public void setPortrait(String portrait) {
         this.portrait = portrait;
+    }
+
+    public String getBio() {
+        return bio;
+    }
+
+    public void setBio(String bio) {
+        this.bio = bio;
     }
 }
